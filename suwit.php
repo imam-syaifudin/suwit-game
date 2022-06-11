@@ -18,8 +18,8 @@ $poin = 0;
 function jalan($string){
   global $banner,$imp,$red,$green,$yellow,$acak,$plus,$result,$white,$comp;
 
-  foreach ( str_split($string) as $kontol){
-    echo $kontol . system("sleep 0.025");
+  foreach ( str_split($string) as $gas){
+    echo $gas . system("sleep 0.025");
   }
 }
 
